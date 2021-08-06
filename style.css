@@ -148,7 +148,7 @@ footer {
   margin-top: 20px;
   width: 400px;
   border-radius: 10px;
-  filter: grayscale(100%);
+  filter: grayscale(50%);
   transition: all 1s;
 }
 .footer-img:hover {
