@@ -23,12 +23,12 @@ Min size
 Max size
 ---------------- */
 @media (max-width: 480px) {
-    .player {
-        width: 300px;
-        height: 430px;
-        padding: 5px;
-        margin: 5px;
-      }
+  .player {
+    width: 300px;
+    height: 430px;
+    padding: 5px;
+    margin: 5px;
+  }
 }
 @media (max-width: 768px) {
   .top-container {
@@ -39,7 +39,7 @@ Max size
   }
   .menu-icon {
     color: white;
-    font-size: 26px;
+    font-size: 40px;
   }
   nav .navbar-links {
     display: none;
