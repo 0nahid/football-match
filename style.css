@@ -99,7 +99,8 @@ heading part style
   width: 400px;
   height: 500px;
   box-shadow: 0px 0px 20px lightgray;
-  margin: 20px 0;
+  margin-right: 20px;
+  margin-top: 20px;
   padding: 15px;
   border-radius: 10px;
 }
@@ -117,11 +118,10 @@ footer {
   text-align: center;
 }
 .footer-img {
-  width: 500px;
-  text-align: center;
+  width: 400px;
 }
 
 .footer-logo {
-  width: 50px;
-  margin-left: 20px;
+  margin-right: 10px;
+  width: 40px;
 }
