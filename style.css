@@ -23,6 +23,9 @@ h1 {
 h2 {
   font-size: 36px;
 }
+h3{
+  font-size:28px;
+}
 p {
   font-size: 1rem;
   color: #777;
@@ -62,8 +65,12 @@ heading part style
 .header {
   background-color: var(--top-bg);
   padding-top: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
+/* -------------------
+Container
+----------------------*/
 .container {
   display: flex;
   align-items: center;
@@ -72,10 +79,12 @@ heading part style
 }
 
 .content-box {
-  width: 560px;
+  width: 550px;
   margin: 90px 0;
 }
-
+.content-box img {
+  width: 100%;
+}
 .banner-img {
   width: 100%;
   transition: all 1s;
@@ -98,7 +107,7 @@ heading part style
 .player {
   width: 400px;
   height: 500px;
-  box-shadow: 0px 0px 20px lightgray;
+  box-shadow: 0px 0px 20px rgb(223, 221, 221);
   margin-right: 20px;
   margin-top: 20px;
   padding: 15px;
@@ -109,16 +118,41 @@ heading part style
   width: 100%;
   border-radius: 10px;
 }
+/* ------------------------
+Team search
+--------------------------- */
+
+.team-search {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+input[type="search"] {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+}
 /*-------------------------
 footer style 
 -------------------------*/
 
 footer {
-  margin: 50px;
   text-align: center;
+  background: #000000ea;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .footer-img {
+  margin-top: 20px;
   width: 400px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+.footer-img:hover {
+  filter: grayscale(0%);
 }
 
 .footer-logo {
