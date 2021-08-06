@@ -39,6 +39,8 @@ Max size
   }
   .menu-icon {
     color: white;
+  }
+  .menu-icon .fa-navicon {
     font-size: 40px;
   }
   nav .navbar-links {
